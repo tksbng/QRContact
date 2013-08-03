@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF7E5AF417ACC749001A4DBB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF7E5AF317ACC749001A4DBB /* UIKit.framework */; };
+		FF7E5AF617ACC749001A4DBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF7E5AF517ACC749001A4DBB /* Foundation.framework */; };
+		FF7E5AF817ACC749001A4DBB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF7E5AF717ACC749001A4DBB /* CoreGraphics.framework */; };
+		FF7E5AFE17ACC749001A4DBB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF7E5AFC17ACC749001A4DBB /* InfoPlist.strings */; };
+		FF7E5B0017ACC749001A4DBB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7E5AFF17ACC749001A4DBB /* main.m */; };
+		FF7E5B0417ACC749001A4DBB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7E5B0317ACC749001A4DBB /* AppDelegate.m */; };
+		FF7E5B0617ACC749001A4DBB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FF7E5B0517ACC749001A4DBB /* Default.png */; };
+		FF7E5B0817ACC749001A4DBB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF7E5B0717ACC749001A4DBB /* Default@2x.png */; };
+		FF7E5B0A17ACC749001A4DBB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF7E5B0917ACC749001A4DBB /* Default-568h@2x.png */; };
+		FF7E5B0D17ACC749001A4DBB /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF7E5B0B17ACC749001A4DBB /* MainStoryboard.storyboard */; };
+		FF7E5B1017ACC749001A4DBB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7E5B0F17ACC749001A4DBB /* ViewController.m */; };
+		FF7E5B1817ACC749001A4DBB /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF7E5B1717ACC749001A4DBB /* SenTestingKit.framework */; };
+		FF7E5B1917ACC749001A4DBB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF7E5AF317ACC749001A4DBB /* UIKit.framework */; };
+		FF7E5B1A17ACC749001A4DBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF7E5AF517ACC749001A4DBB /* Foundation.framework */; };
+		FF7E5B2217ACC749001A4DBB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF7E5B2017ACC749001A4DBB /* InfoPlist.strings */; };
+		FF7E5B2517ACC749001A4DBB /* QRContactTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7E5B2417ACC749001A4DBB /* QRContactTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF7E5B1B17ACC749001A4DBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF7E5AE817ACC748001A4DBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF7E5AEF17ACC749001A4DBB;
+			remoteInfo = QRContact;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF7E5AF017ACC749001A4DBB /* QRContact.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRContact.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF7E5AF317ACC749001A4DBB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FF7E5AF517ACC749001A4DBB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FF7E5AF717ACC749001A4DBB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FF7E5AFB17ACC749001A4DBB /* QRContact-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QRContact-Info.plist"; sourceTree = "<group>"; };
+		FF7E5AFD17ACC749001A4DBB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FF7E5AFF17ACC749001A4DBB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF7E5B0117ACC749001A4DBB /* QRContact-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QRContact-Prefix.pch"; sourceTree = "<group>"; };
+		FF7E5B0217ACC749001A4DBB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF7E5B0317ACC749001A4DBB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF7E5B0517ACC749001A4DBB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FF7E5B0717ACC749001A4DBB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FF7E5B0917ACC749001A4DBB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FF7E5B0C17ACC749001A4DBB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		FF7E5B0E17ACC749001A4DBB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FF7E5B0F17ACC749001A4DBB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FF7E5B1617ACC749001A4DBB /* QRContactTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QRContactTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF7E5B1717ACC749001A4DBB /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		FF7E5B1F17ACC749001A4DBB /* QRContactTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QRContactTests-Info.plist"; sourceTree = "<group>"; };
+		FF7E5B2117ACC749001A4DBB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FF7E5B2317ACC749001A4DBB /* QRContactTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QRContactTests.h; sourceTree = "<group>"; };
+		FF7E5B2417ACC749001A4DBB /* QRContactTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QRContactTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF7E5AED17ACC749001A4DBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF7E5AF417ACC749001A4DBB /* UIKit.framework in Frameworks */,
+				FF7E5AF617ACC749001A4DBB /* Foundation.framework in Frameworks */,
+				FF7E5AF817ACC749001A4DBB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF7E5B1217ACC749001A4DBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF7E5B1817ACC749001A4DBB /* SenTestingKit.framework in Frameworks */,
+				FF7E5B1917ACC749001A4DBB /* UIKit.framework in Frameworks */,
+				FF7E5B1A17ACC749001A4DBB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF7E5AE717ACC748001A4DBB = {
+			isa = PBXGroup;
+			children = (
+				FF7E5AF917ACC749001A4DBB /* QRContact */,
+				FF7E5B1D17ACC749001A4DBB /* QRContactTests */,
+				FF7E5AF217ACC749001A4DBB /* Frameworks */,
+				FF7E5AF117ACC749001A4DBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF7E5AF117ACC749001A4DBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF7E5AF017ACC749001A4DBB /* QRContact.app */,
+				FF7E5B1617ACC749001A4DBB /* QRContactTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF7E5AF217ACC749001A4DBB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF7E5AF317ACC749001A4DBB /* UIKit.framework */,
+				FF7E5AF517ACC749001A4DBB /* Foundation.framework */,
+				FF7E5AF717ACC749001A4DBB /* CoreGraphics.framework */,
+				FF7E5B1717ACC749001A4DBB /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF7E5AF917ACC749001A4DBB /* QRContact */ = {
+			isa = PBXGroup;
+			children = (
+				FF7E5B0217ACC749001A4DBB /* AppDelegate.h */,
+				FF7E5B0317ACC749001A4DBB /* AppDelegate.m */,
+				FF7E5B0B17ACC749001A4DBB /* MainStoryboard.storyboard */,
+				FF7E5B0E17ACC749001A4DBB /* ViewController.h */,
+				FF7E5B0F17ACC749001A4DBB /* ViewController.m */,
+				FF7E5AFA17ACC749001A4DBB /* Supporting Files */,
+			);
+			path = QRContact;
+			sourceTree = "<group>";
+		};
+		FF7E5AFA17ACC749001A4DBB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF7E5AFB17ACC749001A4DBB /* QRContact-Info.plist */,
+				FF7E5AFC17ACC749001A4DBB /* InfoPlist.strings */,
+				FF7E5AFF17ACC749001A4DBB /* main.m */,
+				FF7E5B0117ACC749001A4DBB /* QRContact-Prefix.pch */,
+				FF7E5B0517ACC749001A4DBB /* Default.png */,
+				FF7E5B0717ACC749001A4DBB /* Default@2x.png */,
+				FF7E5B0917ACC749001A4DBB /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF7E5B1D17ACC749001A4DBB /* QRContactTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF7E5B2317ACC749001A4DBB /* QRContactTests.h */,
+				FF7E5B2417ACC749001A4DBB /* QRContactTests.m */,
+				FF7E5B1E17ACC749001A4DBB /* Supporting Files */,
+			);
+			path = QRContactTests;
+			sourceTree = "<group>";
+		};
+		FF7E5B1E17ACC749001A4DBB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF7E5B1F17ACC749001A4DBB /* QRContactTests-Info.plist */,
+				FF7E5B2017ACC749001A4DBB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF7E5AEF17ACC749001A4DBB /* QRContact */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF7E5B2817ACC749001A4DBB /* Build configuration list for PBXNativeTarget "QRContact" */;
+			buildPhases = (
+				FF7E5AEC17ACC749001A4DBB /* Sources */,
+				FF7E5AED17ACC749001A4DBB /* Frameworks */,
+				FF7E5AEE17ACC749001A4DBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QRContact;
+			productName = QRContact;
+			productReference = FF7E5AF017ACC749001A4DBB /* QRContact.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF7E5B1517ACC749001A4DBB /* QRContactTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF7E5B2B17ACC749001A4DBB /* Build configuration list for PBXNativeTarget "QRContactTests" */;
+			buildPhases = (
+				FF7E5B1117ACC749001A4DBB /* Sources */,
+				FF7E5B1217ACC749001A4DBB /* Frameworks */,
+				FF7E5B1317ACC749001A4DBB /* Resources */,
+				FF7E5B1417ACC749001A4DBB /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF7E5B1C17ACC749001A4DBB /* PBXTargetDependency */,
+			);
+			name = QRContactTests;
+			productName = QRContactTests;
+			productReference = FF7E5B1617ACC749001A4DBB /* QRContactTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF7E5AE817ACC748001A4DBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Takeshi Bingo";
+			};
+			buildConfigurationList = FF7E5AEB17ACC748001A4DBB /* Build configuration list for PBXProject "QRContact" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FF7E5AE717ACC748001A4DBB;
+			productRefGroup = FF7E5AF117ACC749001A4DBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF7E5AEF17ACC749001A4DBB /* QRContact */,
+				FF7E5B1517ACC749001A4DBB /* QRContactTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF7E5AEE17ACC749001A4DBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF7E5AFE17ACC749001A4DBB /* InfoPlist.strings in Resources */,
+				FF7E5B0617ACC749001A4DBB /* Default.png in Resources */,
+				FF7E5B0817ACC749001A4DBB /* Default@2x.png in Resources */,
+				FF7E5B0A17ACC749001A4DBB /* Default-568h@2x.png in Resources */,
+				FF7E5B0D17ACC749001A4DBB /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF7E5B1317ACC749001A4DBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF7E5B2217ACC749001A4DBB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FF7E5B1417ACC749001A4DBB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF7E5AEC17ACC749001A4DBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF7E5B0017ACC749001A4DBB /* main.m in Sources */,
+				FF7E5B0417ACC749001A4DBB /* AppDelegate.m in Sources */,
+				FF7E5B1017ACC749001A4DBB /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF7E5B1117ACC749001A4DBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF7E5B2517ACC749001A4DBB /* QRContactTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF7E5B1C17ACC749001A4DBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF7E5AEF17ACC749001A4DBB /* QRContact */;
+			targetProxy = FF7E5B1B17ACC749001A4DBB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF7E5AFC17ACC749001A4DBB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF7E5AFD17ACC749001A4DBB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FF7E5B0B17ACC749001A4DBB /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF7E5B0C17ACC749001A4DBB /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		FF7E5B2017ACC749001A4DBB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF7E5B2117ACC749001A4DBB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF7E5B2617ACC749001A4DBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF7E5B2717ACC749001A4DBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF7E5B2917ACC749001A4DBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QRContact/QRContact-Prefix.pch";
+				INFOPLIST_FILE = "QRContact/QRContact-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FF7E5B2A17ACC749001A4DBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QRContact/QRContact-Prefix.pch";
+				INFOPLIST_FILE = "QRContact/QRContact-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FF7E5B2C17ACC749001A4DBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/QRContact.app/QRContact";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QRContact/QRContact-Prefix.pch";
+				INFOPLIST_FILE = "QRContactTests/QRContactTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		FF7E5B2D17ACC749001A4DBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/QRContact.app/QRContact";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QRContact/QRContact-Prefix.pch";
+				INFOPLIST_FILE = "QRContactTests/QRContactTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF7E5AEB17ACC748001A4DBB /* Build configuration list for PBXProject "QRContact" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF7E5B2617ACC749001A4DBB /* Debug */,
+				FF7E5B2717ACC749001A4DBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF7E5B2817ACC749001A4DBB /* Build configuration list for PBXNativeTarget "QRContact" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF7E5B2917ACC749001A4DBB /* Debug */,
+				FF7E5B2A17ACC749001A4DBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FF7E5B2B17ACC749001A4DBB /* Build configuration list for PBXNativeTarget "QRContactTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF7E5B2C17ACC749001A4DBB /* Debug */,
+				FF7E5B2D17ACC749001A4DBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF7E5AE817ACC748001A4DBB /* Project object */;
+}
