@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+//#import "ZBarSDK.h"
+#import "Contact.h"
+#import <AddressBook/AddressBook.h>
 
-@interface ViewController : UIViewController
+
+@interface ViewController : UIViewController //<ZBarReaderDelegate>
 
 @end
